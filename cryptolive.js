@@ -128,7 +128,7 @@ for(let i = 0;i<data.length;i++){
       var data = [trace1];
       
       var layout = {
-        title : "Top 10 Cryptocurrency by volume daily",
+        title : "Top 10 Cryptocurrencies by volume daily",
         titlefont: {
           "size": 25
         },
