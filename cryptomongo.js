@@ -166,12 +166,12 @@ function updatecoin(newcoin) {
 
 function deletedata() {
 
-  $.ajax( { url: `https://api.mlab.com/api/1/databases/crytocurrency/collections/cryptolist?apiKey=BiFVfOzkzS0l9zD2toWP8k6ZCZ6JJUK6`,
+  $.ajax( { url: "https://api.mlab.com/api/1/databases/cryptocurrency/collections/cryptolist?apiKey=BiFVfOzkzS0l9zD2toWP8k6ZCZ6JJUK6",
 data: JSON.stringify([]),
 type: "PUT",
 contentType: "application/json" } );
 //news
-$.ajax( { url: `https://api.mlab.com/api/1/databases/crytocurrency/collections/cryptonews?apiKey=BiFVfOzkzS0l9zD2toWP8k6ZCZ6JJUK6`,
+$.ajax( { url: "https://api.mlab.com/api/1/databases/cryptocurrency/collections/cryptonews?apiKey=BiFVfOzkzS0l9zD2toWP8k6ZCZ6JJUK6",
 data: JSON.stringify([]),
 type: "PUT",
 contentType: "application/json" } );
