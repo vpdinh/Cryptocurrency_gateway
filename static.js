@@ -193,7 +193,7 @@ function timeseries(BCHvalue,BTCvalue,DASHvalue,ETCvalue,ETHvalue,LTCvalue,NEOSv
      //let bch = d3.select("#bch").property('value')+$("#bch").prop('checked');
      // let btc = d3.select("#btc").property('value')+$("#btc").prop('checked');
      // console.log(bch+btc);
-     timeseries("bchtrue","btctrue","dashtrue","etctrue","ethtrue","ltctrue","neostrue","strtrue","xmrtrue","xrptrue");
+     timeseries("bchtrue","btctrue","dashtrue","etctrue","ethfalse","ltcfalse","neosfalse","strfalse","xmrfalse","xrpfalse");
     
     function plotclick() {
       //console.log(a.value + a.checked);
@@ -629,7 +629,7 @@ function clickchange(BCHvalue,BTCvalue,IOTvalue,ETCvalue,ETHvalue,LTCvalue,NEOSv
   });
   }
 
-clickchange("bchtrue","btctrue","iottrue","etctrue","ethtrue","ltctrue","neostrue","strtrue","xmrtrue","xrptrue");
+clickchange("bchtrue","btctrue","iotfalse","etctrue","ethfalse","ltcfalse","neosfalse","strfalse","xmrfalse","xrpfalse");
 
 //control social plot function
 function plotclick1() {
