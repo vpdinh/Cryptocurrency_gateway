@@ -174,7 +174,7 @@ function timeseries(BCHvalue,BTCvalue,DASHvalue,ETCvalue,ETHvalue,LTCvalue,NEOSv
     }
 
     var layout = {
-      title: 'Prices over 1 Year',
+      title: 'Prices of the Coin over 1 Year',
       titlefont: {
         "size": 30
       },
@@ -193,7 +193,7 @@ function timeseries(BCHvalue,BTCvalue,DASHvalue,ETCvalue,ETHvalue,LTCvalue,NEOSv
      //let bch = d3.select("#bch").property('value')+$("#bch").prop('checked');
      // let btc = d3.select("#btc").property('value')+$("#btc").prop('checked');
      // console.log(bch+btc);
-     timeseries("bchtrue","btctrue","dashtrue","etctrue","ethfalse","ltcfalse","neosfalse","strfalse","xmrfalse","xrpfalse");
+     timeseries("bchtrue","btctrue","dashtrue","etctrue","ethtrue","ltctrue","neostrue","strtrue","xmrtrue","xrptrue");
     
     function plotclick() {
       //console.log(a.value + a.checked);
@@ -629,7 +629,7 @@ function clickchange(BCHvalue,BTCvalue,IOTvalue,ETCvalue,ETHvalue,LTCvalue,NEOSv
   });
   }
 
-clickchange("bchtrue","btctrue","iotfalse","etctrue","ethfalse","ltcfalse","neosfalse","strfalse","xmrfalse","xrpfalse");
+clickchange("bchtrue","btctrue","iottrue","etctrue","ethtrue","ltctrue","neostrue","strtrue","xmrtrue","xrptrue");
 
 //control social plot function
 function plotclick1() {
