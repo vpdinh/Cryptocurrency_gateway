@@ -174,7 +174,7 @@ function timeseries(BCHvalue,BTCvalue,DASHvalue,ETCvalue,ETHvalue,LTCvalue,NEOSv
     }
 
     var layout = {
-      title: 'Prices of the Coin over 1 Year',
+      title: 'Prices over 1 Year',
       titlefont: {
         "size": 30
       },
