@@ -206,7 +206,7 @@ function optionChanged2() {
 
 //BITCOIN NEWS
 
-setInterval(function(){
+function news(){
  d3.select("#news").html("");
 $.get("https://api.mlab.com/api/1/databases/cryptocurrency/collections/cryptonews?apiKey=BiFVfOzkzS0l9zD2toWP8k6ZCZ6JJUK6", function(data, status){
   console.log(data);
@@ -229,7 +229,13 @@ $.get("https://api.mlab.com/api/1/databases/cryptocurrency/collections/cryptonew
     .on("click", function(d){
       window.open(d.link)});
 });
- event.preventDefault();
+}
+
+new();
+
+//Set to update news in 6m
+setInterval(function(){
+  new();
 },360000);
 
 
