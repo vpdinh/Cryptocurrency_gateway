@@ -230,7 +230,7 @@ $.get("https://api.mlab.com/api/1/databases/cryptocurrency/collections/cryptonew
       window.open(d.link)});
 });
  event.preventDefault();
-},5000);
+},360000);
 
 
 
