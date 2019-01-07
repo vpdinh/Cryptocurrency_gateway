@@ -232,7 +232,7 @@ newss();
 
 setInterval(function(){ d3.select("#news").html("");
                        newss();                   
-}, 3000);
+}, 60000);
 
 
 
