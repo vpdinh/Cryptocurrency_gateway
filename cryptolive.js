@@ -230,7 +230,7 @@ $.get("https://api.mlab.com/api/1/databases/cryptocurrency/collections/cryptonew
 }
 newss();
 
-setInterval(function(){ d3.select("#news").html("");
+setInterval(function(){ newstoMlab(); d3.select("#news").html("");
                        newss();                   
 }, 60000);
 
